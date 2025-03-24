@@ -1,16 +1,49 @@
 <html <!DOCTYPE html>
 <html lang= en>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Calvin Close's Portfolio</title>
-        <meta name="description" content="Calvin Close's Portfolio website">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Calvin Close's Portfolio</title>
+	<meta name="description" content="Calvin Close's Portfolio website">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="">
+<style>
+body {margin:0;}
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+ 	overflow: hidden;
+  	background-color: #333;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+   }
+   li { float: left}
+   li a { 
+   display: block;
+   color: white;
+   text-align: center;
+   padding 14px 16px;
+   text-decoration: none;
+   }
+   li a:hover:not(.active) {
+   background-color: #999
+   }
+   .active{ background-color: #9999;
+   }
+  	</style>
     </head>
+   
     <body>
-        <h1 style=text-align:center>hello</h1>
+    <ul>
+    <li><a class="active" href="#home"> Home</a></li>
+    <li><a class="active" href="projects"> projects</a></li>
+    <li><a class="active" href="contact">contact</a></li>
+    </ul>
+        <h1 style=text-align:center>Calvin Close's Portfolio Website</h1>
+        <p>Calvin Close is a programmer who made this website to get a job</p>
     
     </body>
 </html>
