@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang= "en">
 <html>
 <head>
@@ -9,41 +9,44 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="">
 <style>
-body {margin:0;}
-ul {
-  	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
- 	overflow: hidden;
-  	background-color: #333;
-  	position: fixed;
-  	top: 0;
-  	width: 100%;
-   }
-   li { float: left}
-   li a { 
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   }
-   li a:hover:not(.active) {
-   background-color: #999
-   }
-   .active{ background-color: #9999;
-   }
+.navbar {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    position:fixed;
+    top:0;
+    align-content: space-evenly;
+    width:100%;
+    max-width:100vw;
+    background-color: rgb(0, 0,0);
+    padding:2px;
+    left:0;
+    opacity:1;
+}
+
+
   	</style>
     </head>
    
     <body>
-    <ul>
-    <li><a class="active" href="#home"> Home</a></li>
-    <li><a class="active" href="projects"> projects</a></li>
-    <li><a class="active" href="contact">contact</a></li>
-    </ul>
-        <h1 style=text-align:center>Calvin Close's Portfolio Website</h1>
-        <p>Calvin Close is a programmer who made this website to get a job</p>
+    <script>
     
-    </body>
+
+
+    </script>
+    <div class=navbar>
+        <a  href="" style="size:20px;display:block;padding:15px;background-color: rgb(0, 0, 0);text-align: center;color:rgb(255, 255, 255);text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size: large;opacity: 1;"> Overview</a>
+        <a  href="https://github.com/" style="size:20px;display:block;padding:15px;background-color: rgb(0, 0, 0,1);text-align: center;color:rgb(255, 255, 255);text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size: large;fill-opacity: 1;">Projects</a>
+        <a  href="contact" style="size:20px;display:block;padding:15px;background-color: rgb(0, 0, 0);text-align: center;color:rgb(255, 255, 255);text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size: large">Contact</a>
+        <a  href="About" style="size:20px;display:block;padding:15px;background-color: rgb(0, 0, 0);text-align: center;color:rgb(255, 255, 255);text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size: large;">About</a>
+    </div>
+<h1 style="position:absolute;font-size:50px;top:30px;text-align:center;">I am Calvin Close</h1>
+<p style="top:90px;font-size:40px;position:absolute;">I am a programmer who is currently learning App and Software development at the East Valley Institute of Technology. I am currently in Williams Field High School as a junior. I have experience in programming and Computer Aided Design (CAD). Additionally I am</p>
+<h2 style="top:310px;font-size:45px;position:absolute;">Qualifications</h2>
+<p style="top:365px;font-size:30px;position:absolute;">Certified in HTML/CSS <br> Certified in Python <br> Certified in SQL <br> Certified in Autodesk Fusion 360</p>
+
+<!--end of homepage-->
+<h1 style="position:absolute;top:100vh;margin-top:50px">Projects</h1>
+<a href="https://www.codewars.com/users/cclos409"style="size:30px;top:113vh;position:absolute;">My Codewars</a>
+
+</body>
 </html>
